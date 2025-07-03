@@ -1,3 +1,4 @@
+CREATE DATABASE IF NOT EXISTS demo;
 USE demo;
 
 CREATE TABLE students (
@@ -7,6 +8,6 @@ CREATE TABLE students (
 );
 
 INSERT INTO students (name, marks) VALUES
-    ('Om',     85),
-    ('Suresh', 90),
-    ('Ramesh', 76);
+('Om',     85),
+('Suresh', 90),
+('Ramesh', 76);
